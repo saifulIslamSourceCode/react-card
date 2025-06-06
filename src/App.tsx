@@ -1,16 +1,17 @@
 import './App.css'
 import Card from './Card'
-import Button from './Buttoon'
+import Button from './Buttons/Buttoon'
 
 function App() {
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-
+      <main>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </main>
       <Button />
     </>
   )

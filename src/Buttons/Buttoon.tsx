@@ -1,8 +1,9 @@
 import { type JSX } from "react";
+import style from './Button.module.css'
 
 const Button = (): JSX.Element => {
     return(
-        <button style={display: CSSLayerBlockRule;}>Click Me</button>
+        <button className={style.button}>Click Me</button>
     )
 }
 
