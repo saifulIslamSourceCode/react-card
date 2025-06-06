@@ -6,9 +6,9 @@ function App() {
   return (
     <>
       <main>
-        <Card />
-        <Card />
-        <Card />
+        <Card name="Name 1" age={30} isStudent={true}/>
+        <Card name="Name 2" age={20} isStudent={false}/>
+        <Card name="name 3" age={25} isStudent={true}/>
         <Card />
         <Card />
       </main>
